@@ -111,7 +111,7 @@ function parseSchemasOrg(rowsIndicator) {
         //  fs.writeFile("html.html", body, function(err) {
 
        // jsdom.env("html.html", ["http://code.jquery.com/jquery.js"],
-jsdom.env("http://uk.rottentomatoes.com/m/1217700-kick_ass", ["http://code.jquery.com/jquery.js"],
+jsdom.env("html.html", ["http://code.jquery.com/jquery.js"],
         function(errors, window) {
 
             var $ = window.$;
